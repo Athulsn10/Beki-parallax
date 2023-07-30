@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar 
+{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #131313;
+  border-radius: 10px;
+}
+/* .banner-image
+{
+  position: ;
+} */
+.sub
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+  .beki-card-padding
+  {
+    padding-right:10px ;
+    border: 0px;
+
+  }
+  .beki-card-padding-two
+  {
+    padding-left: 10px;
+    border: 0px;
+  }
+  .card-title
+  {
+    color: rgb(0, 0, 0);
+  }
+#card-head
+{
+  color: rgb(255, 255, 255);
+}
+  .navbar-toggler
+  {
+    border: 0px;
+  }
+  footer ul{
+    list-style: none;
+    float: left;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    width: fit-content;
+}
+
+#copy-right
+{
+  font-size: 8px;
+  color: rgb(135, 135, 136);
+}
+#footer-cont-one
+{
+  width:3%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.para{
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 5vh;
+}
+.para img{
+  height: 100%;
+  width: auto;
+}
+.para h1{
+  font-size: 4rem;
+}
+@media (max-width: 768px){
+  .para h1{
+      font-size: 3rem;
+  }
+}
+.para1{
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 5vh;
+}
+.para1 img{
+  height: auto;
+  width: 100%;
+}
+.para1 h1{
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 768px){
+  .para h1{
+      font-size: 3rem;
+  }
+}
+.world-runs
+{
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.parallax {
+  background-image: url("img/beki_banner.png");
+  min-height: 700px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-container  {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
